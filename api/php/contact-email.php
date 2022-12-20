@@ -7,7 +7,7 @@ require('packets/vendor/phpmailer/phpmailer/src/Exception.php');
 require('packets/vendor/phpmailer/phpmailer/src/PHPMailer.php');
 require('packets/vendor/phpmailer/phpmailer/src/SMTP.php');
 
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__.'/../..');
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__.'/..');
 $dotenv->load();
 
 function errorEmail() {
