@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include('php/session-variables.php');
+include('./php/session-variables.php');
 
 function displayLogin() {
     if (!$_SESSION['user']['logged']) {
