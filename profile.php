@@ -1,7 +1,7 @@
 <?php 
 session_start();
-require('./php/get-users.php');
-include('./php/get-my-publi.php');
+require('php/get-users.php');
+include('php/get-my-publi.php');
 
 $admin = 
     $_SESSION['user']['email'] == 'admin@admin' ?
